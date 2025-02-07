@@ -15,20 +15,6 @@ This application utilizes machine learning models to predict the likelihood of v
 3. **Click 'Predict'** to generate a prediction result.
 4. The system will analyze the data and provide the likelihood of the selected disease.
 
-## Installation
-To run the application locally, follow these steps:
-```sh
-# Clone the repository
-git clone https://github.com/your-repo-name/prediction-disease-outbreaks.git
-cd prediction-disease-outbreaks
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the application
-streamlit run app.py
-```
-
 ## Technologies Used
 - **Python** (pandas, scikit-learn, Streamlit, XAI libraries)
 - **Machine Learning Models** (trained models for disease prediction)
@@ -36,10 +22,11 @@ streamlit run app.py
 
 ## File Structure
 ```
-/your-repo-name/
+/AICTE_Internship_P2/
+|──datasets/               # Datasets used(From Kaggle)
 │── models_scalers/        # Pre-trained models and scalers
-│── app.py                 # Main Streamlit application
-│── requirements.txt        # Dependencies
+│── web.py                 # Main Streamlit application
+│── notebooks/             # jupyter files for model training
 │── README.md              # Project documentation
 ```
 
