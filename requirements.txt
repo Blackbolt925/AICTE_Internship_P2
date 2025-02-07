@@ -1,7 +1,7 @@
 # Core dependencies
-streamlit==1.31.1
-pandas==2.1.4
-numpy==1.24.3
+streamlit
+pandas
+numpy
 scikit-learn
 
 plotly
@@ -10,8 +10,8 @@ plotly
 pickle5
 
 # For data visualization
-matplotlib==3.8.2
-seaborn==0.13.1
+matplotlib
+seaborn
 
 # For styling and UI components
-pillow==10.2.0
+pillow
