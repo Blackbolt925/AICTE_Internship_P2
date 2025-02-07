@@ -3,6 +3,9 @@
 ## About
 This application utilizes machine learning models to predict the likelihood of various diseases based on patient data. It provides an easy-to-use interface where users can select a disease, input relevant patient details, and receive a prediction.
 
+## Deployed on Streamlit 
+Link: https://aicteinternshipp2-5dugbekfrqq2snbjoltw23.streamlit.app/
+
 ## Features
 - Supports multiple disease predictions
 - User-friendly interface
