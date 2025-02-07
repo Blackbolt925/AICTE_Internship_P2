@@ -6,8 +6,7 @@ scikit-learn
 
 plotly
 
-# For model handling
-pickle5
+pickle
 
 # For data visualization
 matplotlib
